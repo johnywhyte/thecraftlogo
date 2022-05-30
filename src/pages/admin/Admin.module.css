@@ -1,0 +1,62 @@
+:root{
+    --black: #212529
+}
+.root{
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+.auth_container{
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+    display: grid;
+    place-items: center;
+}
+.btn{
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--black);
+    color: white;
+    padding: 2px 16px;
+}
+.btn:hover{
+    filter: brightness(85%);
+}
+.btn2{
+    border-radius: 50px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--black);
+    color: white;
+    padding: 2px 8px;
+    width:100px;
+    margin: 0 4px;
+}
+.input{
+    border:none;
+    outline: 1px solid grey;
+    margin-right: 8px;
+    padding-left: 8px;
+    border-radius: 5px;
+    height: 30px;
+}
+.input:focus{
+    outline: 1px solid var(--black);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+  
+tr:nth-child(even) {
+background-color: #dddddd;
+}
